@@ -1,0 +1,147 @@
+23/09/2021 20:49 - [EMISSAO_SINCRONA_INICIO]
+23/09/2021 20:49 - [ENVIO_DADOS]
+23/09/2021 20:49 - <?xml version="1.0" encoding="utf-16"?>
+<nfe_v4_00 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <infNFe>
+    <ide xmlns="http://www.portalfiscal.inf.br/nfe">
+      <cUF>43</cUF>
+      <cNF>00462186</cNF>
+      <natOp>VENDA A PRAZO - S</natOp>
+      <mod>55</mod>
+      <serie>6</serie>
+      <nNF>150</nNF>
+      <dhEmi>2021-09-23T20:49:12-03:00</dhEmi>
+      <dhSaiEnt />
+      <tpNF>1</tpNF>
+      <idDest>1</idDest>
+      <cMunFG>4305108</cMunFG>
+      <tpImp>1</tpImp>
+      <tpEmis>1</tpEmis>
+      <cDV />
+      <tpAmb>2</tpAmb>
+      <finNFe>1</finNFe>
+      <indFinal>0</indFinal>
+      <indPres>0</indPres>
+      <procEmi>0</procEmi>
+    </ide>
+    <emit xmlns="http://www.portalfiscal.inf.br/nfe">
+      <CNPJ>07364617000135</CNPJ>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <xFant>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO</xFant>
+      <enderEmit>
+        <xLgr>Rua Bento Osvaldo Trisch,777</xLgr>
+        <nro>.</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <fone>005432200200</fone>
+      </enderEmit>
+      <IE>0170108708</IE>
+      <CRT>1</CRT>
+    </emit>
+    <dest xmlns="http://www.portalfiscal.inf.br/nfe">
+      <CPF>01229452044</CPF>
+      <xNome>NF-E EMITIDA EM AMBIENTE DE HOMOLOGACAO - SEM VALOR FISCAL</xNome>
+      <enderDest>
+        <xLgr>Rua Bento Osvaldo Trisch,777</xLgr>
+        <nro>.</nro>
+        <xCpl>CX POSTAL 91</xCpl>
+        <xBairro>Pendancino</xBairro>
+        <cMun>4303509</cMun>
+        <xMun>Caxias do Sul</xMun>
+        <UF>RS</UF>
+        <fone>005432200200</fone>
+      </enderDest>
+      <indIEDest>1</indIEDest>
+      <IE>0170108708</IE>
+    </dest>
+    <det nItem="1" xmlns="http://www.portalfiscal.inf.br/nfe">
+      <prod>
+        <cProd>TESTE</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>TESTE</xProd>
+        <indTot>0</indTot>
+      </prod>
+      <imposto>
+        <vTotTrib>0.00</vTotTrib>
+        <ICMS>
+          <ICMS20>
+            <orig>0</orig>
+            <CST>20</CST>
+            <modBC>0</modBC>
+            <pRedBC>0.00</pRedBC>
+            <vBC>0.00</vBC>
+            <pICMS>0.00</pICMS>
+            <vICMS>0.00</vICMS>
+            <motDesICMS>3</motDesICMS>
+          </ICMS20>
+        </ICMS>
+        <PIS />
+        <COFINS>
+          <COFINSNT>
+            <CST>04</CST>
+          </COFINSNT>
+        </COFINS>
+      </imposto>
+    </det>
+    <det nItem="2" xmlns="http://www.portalfiscal.inf.br/nfe">
+      <prod>
+        <cProd>TESTE 02</cProd>
+        <cEAN>SEM GTIN</cEAN>
+        <xProd>TESTE 02</xProd>
+        <indTot>0</indTot>
+      </prod>
+      <imposto>
+        <vTotTrib>0.00</vTotTrib>
+        <ICMS>
+          <ICMS20>
+            <orig>0</orig>
+            <CST>20</CST>
+            <modBC>0</modBC>
+            <pRedBC>0.00</pRedBC>
+            <vBC>0.00</vBC>
+            <pICMS>0.00</pICMS>
+            <vICMS>0.00</vICMS>
+            <motDesICMS>3</motDesICMS>
+          </ICMS20>
+        </ICMS>
+        <PIS />
+        <COFINS>
+          <COFINSNT>
+            <CST>04</CST>
+          </COFINSNT>
+        </COFINS>
+      </imposto>
+    </det>
+    <total xmlns="http://www.portalfiscal.inf.br/nfe">
+      <ICMSTot>
+        <vBC>2500,00</vBC>
+        <vICMS>300,00</vICMS>
+        <vBCST>0,00</vBCST>
+        <vST>0,00</vST>
+        <vProd>2500,00</vProd>
+        <vFrete>0,00</vFrete>
+        <vSeg>0,00</vSeg>
+        <vDesc>0,00</vDesc>
+        <vII>0,00</vII>
+        <vIPI>0,00</vIPI>
+        <vPIS>0,00</vPIS>
+        <vCOFINS>0,00</vCOFINS>
+        <vOutro>0,00</vOutro>
+        <vNF>0,00</vNF>
+      </ICMSTot>
+      <ISSQNtot />
+    </total>
+    <transp xmlns="http://www.portalfiscal.inf.br/nfe">
+      <modFrete>0</modFrete>
+    </transp>
+    <pag xmlns="http://www.portalfiscal.inf.br/nfe">
+      <vTroco>0,00</vTroco>
+    </pag>
+    <infAdic xmlns="http://www.portalfiscal.inf.br/nfe">
+      <infAdFisco>DESCRICAO PADRAO DA SEFAZ</infAdFisco>
+    </infAdic>
+  </infNFe>
+</nfe_v4_00>

@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TesteNFe/1.0.0": {
+        "dependencies": {
+          "ns-nfe-core": "1.0.0"
+        },
+        "runtime": {
+          "TesteNFe.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "ns-nfe-core/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/ns-nfe-core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteNFe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "ns-nfe-core/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mv2f8x/1coxd40dtB0doJUj7BCok2PVYwJkzoxfNVW8FIXlK9YcTDHNoi7BVxugtZifBj0uytgqodbWYnLeUfw==",
+      "path": "ns-nfe-core/1.0.0",
+      "hashPath": "ns-nfe-core.1.0.0.nupkg.sha512"
+    }
+  }
+}
